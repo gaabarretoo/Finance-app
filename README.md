@@ -7,7 +7,11 @@ O projeto tem como objetivo permitir o controle de receitas e despesas de forma 
 ---
 
 ##  Demonstração
-
+<p align="center">
+  <img src="preview/home.png" width="250"/>
+  <img src="preview/metas.png" width="250"/>
+  <img src="preview/insights.png" width="250"/>
+</p>
 
 
 ---
