@@ -25,7 +25,7 @@ O projeto tem como objetivo permitir o controle de receitas e despesas de forma 
 
 ###  Backend
 - API REST para CRUD de transações
-- Estrutura em camadas (Controller, Service, Repository)
+- Arquitetura MVC
 - Integração com banco de dados MySQL
 - Validações de dados
 
@@ -47,26 +47,6 @@ O projeto tem como objetivo permitir o controle de receitas e despesas de forma 
 - MySQL
 
 ---
-
-##  Estrutura do projeto
-
-```bash
-frontend/
- ├── src/
- │   ├── components/
- │   ├── pages/
- │   ├── services/
- │   ├── hooks/
- │   └── utils/
-
-backend/
- ├── src/main/java/
- │   ├── controller/
- │   ├── service/
- │   ├── repository/
- │   ├── model/
- │   └── config/
-````
 
 ## Autora
 
