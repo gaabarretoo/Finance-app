@@ -1,0 +1,57 @@
+.tx-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 0.5px solid var(--clr-border);
+  animation: slide-in 0.25s ease both;
+}
+
+.tx-item:last-child {
+  border-bottom: none;
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(-6px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.tx-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-sm);
+  background: var(--clr-surface-2);
+  border: 0.5px solid var(--clr-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.tx-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tx-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--clr-text-1);
+}
+
+.tx-date {
+  font-size: 10px;
+  color: var(--clr-text-3);
+}
+
+.tx-amount {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: var(--font-mono);
+}
+
+.tx-amount.income { color: var(--clr-green); }
+.tx-amount.expense { color: var(--clr-red); }
